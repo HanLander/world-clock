@@ -1,3 +1,62 @@
 body {
+  background-color: #f9f7fe;
+  font-family: Geneva;
+}
+
+h1 {
   text-align: center;
+  font-family: Geneva;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+  font-size: 14px;
+}
+.time {
+  font-size: 28px;
+}
+
+.time small {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
 }
